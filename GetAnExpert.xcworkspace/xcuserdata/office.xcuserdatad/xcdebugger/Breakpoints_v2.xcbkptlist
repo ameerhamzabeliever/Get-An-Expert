@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4BC8F832-443B-47AC-98A6-BEED6D20E695"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8250ECFA-C94D-40C6-9E45-04ECBFAFD40D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetAnExpert/Controllers/User/ServiceProvider/Slots/Create/CreateSlotsVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "639"
+            endingLineNumber = "639"
+            landmarkName = "didTapCreateSlots(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E27C9530-820E-4D24-A25E-C1777A746756"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetAnExpert/Controllers/User/ServiceProvider/Slots/Select/SelectSlotsVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "695"
+            endingLineNumber = "695"
+            landmarkName = "pickerView(_:didSelectRow:inComponent:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA7E5B7D-3D56-4DA9-95C8-619A51E5B2C9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetAnExpert/Controllers/User/ServiceProvider/Slots/Select/SelectSlotsVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "702"
+            endingLineNumber = "702"
+            landmarkName = "pickerView(_:didSelectRow:inComponent:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C5A60BC-A882-4B6F-ACEB-28604925E39E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetAnExpert/Controllers/User/ServiceProvider/Slots/Select/SelectSlotsVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "604"
+            endingLineNumber = "604"
+            landmarkName = "getSlotsByUserId(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C014879C-8680-4665-9884-5639A7638DF8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetAnExpert/Controllers/User/ServiceProvider/Slots/Select/SelectSlotsVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "477"
+            endingLineNumber = "477"
+            landmarkName = "didTapBookNow(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C014879C-8680-4665-9884-5639A7638DF8 - 2fb7a00bb044dd87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetAnExpert.SelectSlotsVC.didTapBookNow(__C.UIButton) -&gt; ()"
+                  moduleName = "GetAnExpert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/office/Desktop/GetAnExpert/GetAnExpert/Controllers/User/ServiceProvider/Slots/Select/SelectSlotsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "477"
+                  endingLineNumber = "477"
+                  offsetFromSymbolStart = "2266">
+               </Location>
+               <Location
+                  uuid = "C014879C-8680-4665-9884-5639A7638DF8 - f42f5d675eecd726"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (GetAnExpert.Slots) -&gt; () in GetAnExpert.SelectSlotsVC.didTapBookNow(__C.UIButton) -&gt; ()"
+                  moduleName = "GetAnExpert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/office/Desktop/GetAnExpert/GetAnExpert/Controllers/User/ServiceProvider/Slots/Select/SelectSlotsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "479"
+                  endingLineNumber = "479"
+                  offsetFromSymbolStart = "170">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8B361FE4-538B-423F-8A29-5EB74AE272AF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetAnExpert/Controllers/User/ServiceProvider/Slots/Select/SelectSlotsVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "471"
+            endingLineNumber = "471"
+            landmarkName = "didTapBookNow(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8B361FE4-538B-423F-8A29-5EB74AE272AF - 2fb7a00bb044deb9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetAnExpert.SelectSlotsVC.didTapBookNow(__C.UIButton) -&gt; ()"
+                  moduleName = "GetAnExpert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/office/Desktop/GetAnExpert/GetAnExpert/Controllers/User/ServiceProvider/Slots/Select/SelectSlotsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "471"
+                  endingLineNumber = "471"
+                  offsetFromSymbolStart = "1935">
+               </Location>
+               <Location
+                  uuid = "8B361FE4-538B-423F-8A29-5EB74AE272AF - 9ec08ff0f26eae28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (GetAnExpert.Slots) -&gt; () in GetAnExpert.SelectSlotsVC.didTapBookNow(__C.UIButton) -&gt; ()"
+                  moduleName = "GetAnExpert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/office/Desktop/GetAnExpert/GetAnExpert/Controllers/User/ServiceProvider/Slots/Select/SelectSlotsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "472"
+                  endingLineNumber = "472"
+                  offsetFromSymbolStart = "170">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A44E70D8-3064-4957-A72C-FC2398B202FF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetAnExpert/Controllers/User/ServiceProvider/Slots/Create/CreateSlotsVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "964"
+            endingLineNumber = "964"
+            landmarkName = "pickerView(_:didSelectRow:inComponent:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE83F002-C14D-46AC-89B3-934DA63F250C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetAnExpert/Controllers/User/ServiceProvider/Slots/Create/CreateSlotsVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "996"
+            endingLineNumber = "996"
+            landmarkName = "pickerView(_:didSelectRow:inComponent:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BAC6A7A3-04E5-4329-A558-917BF0E763A0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetAnExpert/Controllers/User/ServiceProvider/Slots/Create/CreateSlotsVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "526"
+            endingLineNumber = "526"
+            landmarkName = "didTapTextField(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

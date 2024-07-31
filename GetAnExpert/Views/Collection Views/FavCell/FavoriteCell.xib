@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FavoriteCell" customModule="GetAnExpert" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="167" height="167"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="167" height="167"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ph-wv-cKy">
+                        <rect key="frame" x="108.5" y="0.0" width="58.5" height="30"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="hKc-zH-IBL">
+                                <rect key="frame" x="5" y="7.5" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="hKc-zH-IBL" secondAttribute="height" multiplier="1:1" id="CuT-4n-VoC"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ol-5n-6AH">
+                                <rect key="frame" x="25" y="5.5" width="28.5" height="19.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
+                                <color key="textColor" name="Label-White"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="Button-BG"/>
+                        <constraints>
+                            <constraint firstItem="hKc-zH-IBL" firstAttribute="height" secondItem="6ph-wv-cKy" secondAttribute="height" multiplier="0.5" id="0n0-tR-z3H"/>
+                            <constraint firstItem="6ol-5n-6AH" firstAttribute="centerY" secondItem="hKc-zH-IBL" secondAttribute="centerY" id="9vT-Of-muV"/>
+                            <constraint firstAttribute="trailing" secondItem="6ol-5n-6AH" secondAttribute="trailing" constant="5" id="Iaf-P9-Zsc"/>
+                            <constraint firstItem="hKc-zH-IBL" firstAttribute="centerY" secondItem="6ph-wv-cKy" secondAttribute="centerY" id="Nau-G8-gYH"/>
+                            <constraint firstItem="hKc-zH-IBL" firstAttribute="leading" secondItem="6ph-wv-cKy" secondAttribute="leading" constant="5" id="eZ9-WU-pxq"/>
+                            <constraint firstItem="6ol-5n-6AH" firstAttribute="leading" secondItem="hKc-zH-IBL" secondAttribute="trailing" constant="5" id="pDl-d3-DAM"/>
+                        </constraints>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="samplePerson" translatesAutoresizingMaskIntoConstraints="NO" id="ArB-KT-hkT">
+                        <rect key="frame" x="20" y="20" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="ArB-KT-hkT" secondAttribute="height" multiplier="1:1" id="XjC-Ym-Lu7"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. Alexander Michel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Cky-aB-96P">
+                        <rect key="frame" x="20" y="80" width="100" height="44"/>
+                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
+                        <color key="textColor" name="Label-Blue"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doctor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="sJl-VE-pLk">
+                        <rect key="frame" x="20" y="129" width="100" height="19.5"/>
+                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                        <color key="textColor" name="Lable-Purple"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="sJl-VE-pLk" firstAttribute="leading" secondItem="Cky-aB-96P" secondAttribute="leading" id="00y-py-cvg"/>
+                <constraint firstItem="ArB-KT-hkT" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="20" id="8Ri-7j-pHA"/>
+                <constraint firstItem="ArB-KT-hkT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="9bc-Bp-Voj"/>
+                <constraint firstItem="6ph-wv-cKy" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.35" id="BNC-7n-wnP"/>
+                <constraint firstAttribute="trailing" secondItem="6ph-wv-cKy" secondAttribute="trailing" id="Fj1-A0-LyO"/>
+                <constraint firstItem="6ph-wv-cKy" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="NSl-LJ-oz6"/>
+                <constraint firstItem="Cky-aB-96P" firstAttribute="width" secondItem="ArB-KT-hkT" secondAttribute="width" multiplier="2" id="RrP-MR-4kT"/>
+                <constraint firstItem="Cky-aB-96P" firstAttribute="top" secondItem="ArB-KT-hkT" secondAttribute="bottom" constant="10" id="chO-Wd-mrY"/>
+                <constraint firstItem="Cky-aB-96P" firstAttribute="leading" secondItem="ArB-KT-hkT" secondAttribute="leading" id="chP-9C-owf"/>
+                <constraint firstItem="sJl-VE-pLk" firstAttribute="width" secondItem="Cky-aB-96P" secondAttribute="width" id="d1o-FY-Mm0"/>
+                <constraint firstItem="sJl-VE-pLk" firstAttribute="top" secondItem="Cky-aB-96P" secondAttribute="bottom" constant="5" id="i27-IM-Eob"/>
+                <constraint firstItem="6ph-wv-cKy" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.18" id="i8n-aP-w7p"/>
+                <constraint firstItem="ArB-KT-hkT" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.299401" id="no5-Iq-17r"/>
+            </constraints>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                    <real key="value" value="0.5"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                    <color key="value" white="0.67000000000000004" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="profileImageView" destination="ArB-KT-hkT" id="5Wp-SR-uSV"/>
+                <outlet property="providerName" destination="Cky-aB-96P" id="mxE-2Q-bS9"/>
+                <outlet property="providerSpeciality" destination="sJl-VE-pLk" id="eUI-WL-kxw"/>
+                <outlet property="ratingLable" destination="6ol-5n-6AH" id="nJa-Ef-a7f"/>
+                <outlet property="ratingView" destination="6ph-wv-cKy" id="6pE-FE-mNT"/>
+            </connections>
+            <point key="canvasLocation" x="136.95652173913044" y="106.13839285714285"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="samplePerson" width="640" height="480"/>
+        <image name="star" width="512" height="512"/>
+        <namedColor name="Button-BG">
+            <color red="0.93699997663497925" green="0.44299998879432678" blue="0.41999998688697815" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Label-Blue">
+            <color red="0.046999998390674591" green="0.043000001460313797" blue="0.32199999690055847" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Label-White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Lable-Purple">
+            <color red="0.5690000057220459" green="0.5690000057220459" blue="0.6940000057220459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

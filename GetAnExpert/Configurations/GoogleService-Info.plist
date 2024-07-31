@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>269025117355-mka1nqmqtd6ghn4fuosisknp3arek76g.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.269025117355-mka1nqmqtd6ghn4fuosisknp3arek76g</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB44xSE-2rMYjTUSvbKbbxPED6DCNRg0I4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>269025117355</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.saifurrahman.getanexpert</string>
+	<key>PROJECT_ID</key>
+	<string>getanexpert-b5047</string>
+	<key>STORAGE_BUCKET</key>
+	<string>getanexpert-b5047.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:269025117355:ios:3d28863757efd9b397e3ee</string>
+	<key>DATABASE_URL</key>
+	<string>https://getanexpert-b5047.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "64DB3343-461D-4AD6-907E-8B95C7923CDC"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6096EFB3-46A9-4C3C-AE1B-F6E6CEE9280E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetAnExpert/Controllers/User/Consumer/ScheduleVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "281"
+            endingLineNumber = "281"
+            landmarkName = "getMyAppointments()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6096EFB3-46A9-4C3C-AE1B-F6E6CEE9280E - b009e55d4a70e3d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.String&gt;) -&gt; () in GetAnExpert.ScheduleVC.getMyAppointments() -&gt; ()"
+                  moduleName = "GetAnExpert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dexter/Desktop/Projects/GetAnExpert/GetAnExpert/Controllers/User/Consumer/ScheduleVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "281"
+                  endingLineNumber = "281"
+                  offsetFromSymbolStart = "800">
+               </Location>
+               <Location
+                  uuid = "6096EFB3-46A9-4C3C-AE1B-F6E6CEE9280E - c26080613c983b7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftyJSON.JSON) -&gt; GetAnExpert.AppointmentsModel in closure #1 (Alamofire.DataResponse&lt;Swift.String&gt;) -&gt; () in GetAnExpert.ScheduleVC.getMyAppointments() -&gt; ()"
+                  moduleName = "GetAnExpert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dexter/Desktop/Projects/GetAnExpert/GetAnExpert/Controllers/User/Consumer/ScheduleVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "282"
+                  endingLineNumber = "282"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
